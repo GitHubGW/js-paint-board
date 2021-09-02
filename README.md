@@ -24,4 +24,4 @@ https://githubgw.github.io/js-paint-board
 - [x] Mouse Events
 - [x] Brush Size
 - [x] Image Save
-- [x] Reset
+- [x] Reset Paint Board
