@@ -7,6 +7,10 @@ body {
   display: flex;
   justify-content: center;
   font-family: "Jua", sans-serif;
+  background: url("./background.jpeg") no-repeat center center;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
 }
 .container {
   display: flex;
@@ -28,7 +32,7 @@ canvas {
   position: fixed;
   top: 50%;
   left: 18px;
-  transform: translateY(-60%);
+  transform: translateY(-55%);
   width: 90px;
 }
 
@@ -48,6 +52,7 @@ canvas {
   font-size: 18px;
   text-align: center;
   margin-top: 10px;
+  color: #222;
 }
 .control__color.control__current-color {
   width: 50px;
@@ -100,8 +105,21 @@ canvas {
   margin: 0 10px;
   margin-bottom: 10px;
   padding: 12px 0px;
+  border-radius: 5px;
   width: 90px;
   box-sizing: border-box;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
   font-family: "Jua", sans-serif;
+  transition: 0.3s;
+  color: white;
+  font-weight: bold;
+}
+.control__button-list button:nth-child(1) {
+  background-color: #95afc0;
+}
+.control__button-list button:nth-child(2) {
+  background-color: #a29bfe;
+}
+.control__button-list button:nth-child(3) {
+  background-color: #74b9ff;
 }
