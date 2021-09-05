@@ -8,8 +8,8 @@ const fill = document.getElementById("jsFill");
 const reset = document.getElementById("jsReset");
 const save = document.getElementById("jsSave");
 
-canvas.width = 1200;
-canvas.height = 1100;
+canvas.width = 1100;
+canvas.height = 1000;
 
 ctx.strokeStyle = "black";
 ctx.lineWidth = "4";
