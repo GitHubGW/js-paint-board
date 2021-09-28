@@ -1,4 +1,4 @@
-# Paint Board
+# Paint-Board
 
 ## 🔗 Demo
 https://githubgw.github.io/js-paint-board
